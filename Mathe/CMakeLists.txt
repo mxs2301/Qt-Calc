@@ -15,7 +15,7 @@ find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Core)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
 
 add_executable(Mathe
-  main.cpp
+  main.cpp Stuff/ready.h Stuff/ready.cpp
 )
 target_link_libraries(Mathe Qt${QT_VERSION_MAJOR}::Core)
 
